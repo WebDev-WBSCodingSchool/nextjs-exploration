@@ -10,7 +10,7 @@ export default function Error({
 	return (
 		<div className='flex flex-col items-center justify-center'>
 			<h2 className='text-2xl font-bold text-red-700 mb-2'>
-				Something went wrong globally!
+				Something went wrong!
 			</h2>
 			<p className='text-red-600 mb-4'>Error: {error.message}</p>
 			<button
